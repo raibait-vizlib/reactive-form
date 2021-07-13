@@ -1,0 +1,28 @@
+<div class='form-container'>
+    <div class="form-header-container">
+        <h3 class="form-header">Reactive form</h3>
+    </div>
+    <form [formGroup]='simpleForm' (ngSubmit)='onSubmit()'>
+        <div class="form-input-container">
+            <mat-form-field class='form-input-name'>
+                <mat-label>Imię</mat-label>
+                <input matInput type="text" formControlName='name' autocomplete="off">
+            </mat-form-field>
+        </div>
+        <div class="form-input-container">
+            <mat-form-field class='form-input-name'>
+                <mat-label>Nazwisko</mat-label>
+                <input matInput type="text" formControlName='surname' autocomplete="off">
+            </mat-form-field>
+        </div>
+        <div class="form-input-container ">
+            <mat-form-field class='form-input-email'>
+                <mat-label>E-mail</mat-label>
+                <input matInput type="text" formControlName='email' autocomplete="off">
+            </mat-form-field>
+        </div>
+        <div class="form-input-container">
+            <button mat-raised-button type='submit'>Submit</button>
+        </div>
+    </form>
+</div>
