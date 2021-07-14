@@ -1,0 +1,32 @@
+.form-container {
+  box-sizing: border-box;
+  background-color: #fff;
+  height: fit-content;
+  border-radius: 15px;
+  padding: 50px;
+}
+
+.form-header-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.form-header {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.form-input-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+.form-input-email {
+  //   width: 100%;
+  margin: 10px;
+}
